@@ -1,0 +1,60 @@
+{
+  "rewrites": [
+    {
+      "source": "/explorito",
+      "destination": "https://explorito-ai-website.vercel.app"
+    },
+    {
+      "source": "/explorito/(.*)",
+      "destination": "https://explorito-ai-website.vercel.app/$1"
+    },
+    {
+      "source": "/flixx",
+      "destination": "https://flixxmovie-dave.vercel.app"
+    },
+    {
+      "source": "/flixx/(.*)",
+      "destination": "https://flixxmovie-dave.vercel.app/$1"
+    },
+    {
+      "source": "/loopstudios",
+      "destination": "https://loopstudios-roan-one.vercel.app"
+    },
+    {
+      "source": "/loopstudios/(.*)",
+      "destination": "https://loopstudios-roan-one.vercel.app/$1"
+    },
+    {
+      "source": "/tutor",
+      "destination": "https://tutor-website-six-blue.vercel.app"
+    },
+    {
+      "source": "/tutor/(.*)",
+      "destination": "https://tutor-website-six-blue.vercel.app/$1"
+    },
+    {
+      "source": "/leno",
+      "destination": "https://leno-app-bice.vercel.app"
+    },
+    {
+      "source": "/leno/(.*)",
+      "destination": "https://leno-app-bice.vercel.app/$1"
+    },
+    {
+      "source": "/fylo",
+      "destination": "https://fylo-website-mocha.vercel.app"
+    },
+    {
+      "source": "/fylo/(.*)",
+      "destination": "https://fylo-website-mocha.vercel.app/$1"
+    },
+    {
+      "source": "/bookmark",
+      "destination": "https://bookmark-manager-nine.vercel.app"
+    },
+    {
+      "source": "/bookmark/(.*)",
+      "destination": "https://bookmark-manager-nine.vercel.app/$1"
+    }
+  ]
+}
