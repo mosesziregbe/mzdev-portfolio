@@ -105,34 +105,8 @@ export default function ProjectPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <div className="bg-white shadow-sm border-b">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div>
-            <h1 className="text-xl font-bold text-gray-800">{project.name}</h1>
-            <p className="text-gray-600 text-sm">{project.description}</p>
-          </div>
-          <div className="flex gap-4">
-            <Link
-              href="/"
-              className="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors"
-            >
-              ← Portfolio
-            </Link>
-            <a
-              href={project.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              Open in New Tab ↗
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* Project Content */}
-      <div className="relative h-[calc(100vh-80px)]">
+      {/* Project Content - Full Screen */}
+      <div className="relative h-screen">
         {isLoading && (
           <div className="absolute inset-0 bg-gray-50 flex items-center justify-center z-10">
             <div className="text-center">
