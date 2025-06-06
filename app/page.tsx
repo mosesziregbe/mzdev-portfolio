@@ -47,31 +47,31 @@ const projects = [
     name: 'Shopping List',
     description: 'Simple vanilla JS shopping list manager',
     slug: 'shopping-list',
-    url: 'https://shopping-list-example.vercel.app/', // Add your actual URL
+    url: 'https://shoppinglist-dave.netlify.app', // Add your actual URL
   },
   {
     name: 'Clipboard Website',
     description: 'Modern clipboard manager with TailwindCSS',
     slug: 'clipboard',
-    url: 'https://clipboard-example.vercel.app/', // Add your actual URL
+    url: 'https://clipboard-website-dave.netlify.app/', // Add your actual URL
   },
   {
     name: 'Tracalorie',
     description: 'Calorie tracking app with Webpack',
     slug: 'tracalorie',
-    url: 'https://tracalorie-example.vercel.app/', // Add your actual URL
+    url: 'https://tracalorie-app-dave.netlify.app/', // Add your actual URL
   },
   {
     name: 'Shortly',
     description: 'URL shortening service landing page',
     slug: 'shortly',
-    url: 'https://shortly-example.vercel.app/', // Add your actual URL
+    url: 'https://shortly-dave.netlify.app/', // Add your actual URL
   },
   {
     name: 'Omnifood',
     description: 'Food delivery website with modern design',
     slug: 'omnifood',
-    url: 'https://omnifood-example.vercel.app/', // Add your actual URL
+    url: 'https://omnifood-delivery-dave.netlify.app/', // Add your actual URL
   },
 ];
 
@@ -113,7 +113,7 @@ export default function Home() {
         </section>
 
         <footer className="text-center mt-12 text-gray-600">
-          <p>Built with by Dave MZ 🥪</p>
+          <p>Built by Dave MZ 🥪</p>
         </footer>
       </div>
     </div>

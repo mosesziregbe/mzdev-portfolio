@@ -45,27 +45,27 @@ const projects: Record<
   },
   'shopping-list': {
     name: 'Shopping List',
-    url: 'https://shopping-list-example.vercel.app/', // Update with your actual URL
+    url: 'https://shoppinglist-dave.netlify.app', // Update with your actual URL
     description: 'Simple vanilla JS shopping list manager',
   },
   clipboard: {
     name: 'Clipboard Website',
-    url: 'https://clipboard-example.vercel.app/', // Update with your actual URL
+    url: 'https://clipboard-website-dave.netlify.app/', // Update with your actual URL
     description: 'Modern clipboard manager with TailwindCSS',
   },
   tracalorie: {
     name: 'Tracalorie',
-    url: 'https://tracalorie-example.vercel.app/', // Update with your actual URL
+    url: 'https://tracalorie-app-dave.netlify.app/', // Update with your actual URL
     description: 'Calorie tracking app with Webpack',
   },
   shortly: {
     name: 'Shortly',
-    url: 'https://shortly-example.vercel.app/', // Update with your actual URL
+    url: 'https://shortly-dave.netlify.app/', // Update with your actual URL
     description: 'URL shortening service landing page',
   },
   omnifood: {
     name: 'Omnifood',
-    url: 'https://omnifood-example.vercel.app/', // Update with your actual URL
+    url: 'https://omnifood-delivery-dave.netlify.app/', // Update with your actual URL
     description: 'Food delivery website with modern design',
   },
 };
